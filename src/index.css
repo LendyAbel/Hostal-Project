@@ -1,0 +1,32 @@
+:root {
+  --fondo0: white;
+  --color0: #48bdad;
+
+  --fondo1: #48bdad;
+  --color1: white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-margin-top: 10vh;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.type0 {
+  color: var(--color0);
+  background-color: var(--fondo0);
+}
+.type1 {
+  color: var(--color1);
+  background-color: var(--fondo1);
+}

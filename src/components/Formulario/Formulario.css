@@ -1,0 +1,255 @@
+/*ESTILO ESPECIFICO DE LA SECCION*/
+/******************************************************************************/
+
+.reservar {
+  height: 90vh;
+  font-size: 16px;
+}
+
+.reservar h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border: 1px solid var(--color1);
+  border-radius: 1rem;
+}
+
+.reservar label {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.formElement {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+
+.fechas {
+  display: flex;
+
+  width: 80%;
+}
+.contenedorHabitaciones {
+  width: 80%;
+}
+
+.habitaciones {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.checkboxs {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 5px;
+  align-items: center;
+}
+
+.personas {
+  margin: 0 5px;
+}
+
+.info {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 8px;
+}
+
+.comentario {
+  width: 80%;
+}
+
+.fechas input,
+.personas input,
+.info input,
+.comentario textarea {
+  font-size: 12px;
+  width: 200px;
+  border: 1px solid var(--color1);
+  border-radius: 1rem;
+  padding: 5px;
+  background-color: var(--fondo0);
+  text-align: center;
+}
+
+.personas input {
+  width: 50px;
+  height: 18px;
+  margin-left: 5px;
+}
+
+.comentario textarea {
+  width: 100%;
+  height: 50px;
+  resize: none;
+}
+
+.button {
+  width: 150px;
+  font-size: 20px;
+  margin-top: 16px;
+  padding: 8px 16px;
+  border-radius: 1rem;
+  background-color: var(--fondo0);
+  color: var(--color0);
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid var(--color1);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.2);
+}
+
+.button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.button:disabled:hover {
+  transform: none;
+}
+
+.politica {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  width: 80%;
+}
+
+.confirmDiv {
+  height: 16px;
+  margin-bottom: 8px;
+}
+
+/* MEDIA QUERIES */
+/******************************************************************************/
+
+@media (max-width: 394px) {
+  .reservar h1 {
+    font-size: 25px;
+    margin-bottom: 8px;
+  }
+
+  .form {
+    width: 95%;
+  }
+
+  .reservar label {
+    margin-top: 5px;
+  }
+
+  .formElement {
+    margin: 5px;
+  }
+
+  .button {
+    width: 100px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 4px 16px;
+  }
+}
+@media (max-width: 376px) {
+  .reservar h1 {
+    margin-bottom: 0px;
+  }
+
+  .reservar label {
+    margin-top: 0px;
+  }
+
+  .formElement {
+    margin: 0px;
+  }
+}
+
+@media (max-height: 721px) {
+  .reservar h1 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  .form {
+    width: 95%;
+  }
+
+  .reservar label {
+    margin-top: 0px;
+  }
+
+  .formElement {
+    margin: 2px;
+  }
+
+  .button {
+    width: 100px;
+    font-size: 18px;
+    margin-top: 2px;
+    padding: 4px 16px;
+  }
+}
+@media (max-height: 391px) {
+  .reservar {
+    font-size: 12px;
+  }
+  .reservar h1 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  .form {
+    width: 95%;
+  }
+
+  .reservar label {
+    margin-top: 0px;
+  }
+
+  .formElement {
+    margin: 0px;
+  }
+
+  .fechas input,
+  .personas input,
+  .info input,
+  .comentario textarea {
+    height: 16px;
+    font-size: 10px;
+    padding: 1px;
+  }
+
+  .comentario textarea {
+    width: 100%;
+    height: 32px;
+    resize: none;
+  }
+
+  .button {
+    font-size: 15px;
+    padding: 2px 16px;
+  }
+}

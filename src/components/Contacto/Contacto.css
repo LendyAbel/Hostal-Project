@@ -1,0 +1,49 @@
+ /*ESTILO ESPECIFICO DE LA SECCION*/
+  /******************************************************************************/
+  
+  .contacto {
+    height: 80vh;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .contacto h2 {
+    font-size: 30px;
+  }
+  
+  .contacto a {
+    text-decoration: none;
+    color: var(--color0);
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .contacto a:hover {
+    transform: scale(1.2);
+  }
+  
+  .areaContactos,
+  .areaEnlaces {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .enlaceContacto,
+  .enlaceSitio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 0px 30px;
+  }
+  
+  .enlaceContacto img,
+  .enlaceSitio img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }

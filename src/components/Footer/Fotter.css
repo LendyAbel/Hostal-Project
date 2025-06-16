@@ -1,0 +1,55 @@
+/*ESTILO ESPECIFICO DE LA SECCION*/
+/******************************************************************************/
+
+.footer {
+  border-top: 1px solid var(--color1);
+  height: 10vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+.type1 {
+  color: var(--color1);
+  background-color: var(--fondo1);
+}
+
+.footerConteiner {
+  display: flex;
+  align-items: center;
+}
+
+.medio {
+  justify-content: center;
+}
+
+.izquierdo {
+  justify-content: left;
+  margin-left: 16px;
+}
+
+.derecho {
+  justify-content: right;
+  margin-right: 16px;
+}
+
+/* MEDIA QUERIES */
+/******************************************************************************/
+
+@media (max-width: 426px), (max-height: 670px) {
+  .footer {
+    font-size: 13px;
+  }
+
+  .izquierdo {
+    margin-left: 8px;
+  }
+
+  .derecho {
+    margin-right: 8px;
+  }
+}

@@ -1,0 +1,7 @@
+export { default as Navbar } from './Navbar/Navbar.jsx'
+export { default as Inicio } from './Inicio/Inicio.jsx'
+export { default as Descripcion } from './Descripcion/Descripcion.jsx'
+export { default as Fotos } from './Fotos/Fotos.jsx'
+export { default as Formulario } from './Formulario/Formulario.jsx'
+export { default as Contacto } from './Contacto/Contacto.jsx'
+export { default as Fotter } from './Footer/Fotter.jsx'

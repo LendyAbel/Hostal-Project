@@ -1,0 +1,75 @@
+/*ESTILO ESPECIFICO DE LA SECCION*/
+/******************************************************************************/
+
+.descripcion {
+  height: 90vh;
+}
+
+.eslogan {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 1px black;
+}
+
+.eslogan h1 {
+  font-size: 40px;
+  margin: 10px;
+}
+
+.eslogan h2 {
+  font-size: 30px;
+}
+
+.descripcion p {
+  width: 80%;
+  text-align: justify;
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* MEDIA QUERIES */
+/******************************************************************************/
+
+@media (max-width: 1025px), (max-height: 670px) {
+  .eslogan {
+    margin-bottom: 15px;
+  }
+
+  .eslogan h1 {
+    font-size: 30px;
+    margin: 8px;
+  }
+
+  .eslogan h2 {
+    font-size: 25px;
+  }
+
+  .descripcion p {
+    width: 80%;
+    font-size: 15px;
+    margin: 8px;
+  }
+}
+
+@media (max-width: 769px), (max-height: 670px) {
+  .eslogan {
+    margin-bottom: 10px;
+  }
+
+  .eslogan h1 {
+    font-size: 25px;
+    margin: 4px;
+  }
+
+  .eslogan h2 {
+    font-size: 18px;
+  }
+
+  .descripcion p {
+    width: 90%;
+    margin: 5px;
+  }
+}
