@@ -23,20 +23,20 @@ Sitio web para Hostal Alicia, ubicado en Morón, Cuba. Permite a los usuarios co
 ## Instalación
 
 1. Clona el repositorio:
-   ```sh
+   ```
    git clone https://github.com/tuusuario/hostal-alicia-web-project.git
    cd hostal-alicia-web-project
    ```
 
 2. Instala las dependencias:
-   ```sh
+   ```
    npm install
    ```
 
 3. Crea un archivo `.env` basado en `.env.example` y agrega tus claves de API de Google Maps y EmailJS.
 
 4. Inicia el servidor de desarrollo:
-   ```sh
+   ```
    npm run dev
    ```
 
@@ -55,3 +55,5 @@ Sitio web para Hostal Alicia, ubicado en Morón, Cuba. Permite a los usuarios co
 - `src/utils/config.js` — Configuración de claves de API.
 
 ## Licencia
+
+- MIT
